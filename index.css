@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* a{
+    text-decoration: none;
+}
+header{
+    padding: 5px 25px;
+    margin-bottom: 60px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+}
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    margin-right: 220px;
+
+}
+header li{
+    float: left;
+    margin-top: 40px;
+}
+header a{
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: muli, sans-serif;
+    font-weight: 600;
+    color:rgb(75, 92, 146);
+    letter-spacing: 1px;
+}
+.blue{
+    border: 2px solid #06b8ad;
+    border-radius: 23px;
+    background-color: #06b8ad;
+    padding: 8px 20px;
+    color: white;
+    margin-top: 0px;
+    margin-left: 10px;
+
+}
+.blue:hover{
+    background: white;
+    color: #06b8ad;
+    transition: all 0.5s;
+}
+.slide{
+    width: 100%;
+    height: 480px;
+    margin-top: 140px;
+    padding: 100px 40px;
+    background-image: url(hs-eyeota-enrich-2.jpg);
+    background-size: cover;
+    z-index: 1;
+    box-sizing: border-box;
+}
+.size{
+    width: 45%;
+}
+.enrich{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(71, 68, 68);
+    margin-bottom: 30px;
+}
+.enrich>span{
+    font-weight: bold;
+}
+.best{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(71, 68, 68);
+    margin-top: 30px;
+    margin-bottom: 55px;
+}
+.find{
+    border: 2px solid #06b8ad;
+    border-radius: 23px;
+    color: rgb(71, 68, 68);
+    font-size: 20px;
+    padding: 10px 30px;
+}
+.find:hover{
+    background-color: #06b8ad;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+main{
+    padding: 80px 60px 80px 150px;
+    height: 450px;
+}
+.picture{
+    width: 45%;
+    float: left;
+}
+.side{
+    width: 55%;
+    display: inline-block;
+    padding-top: 80px;
+}
+.bigger{
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.bigger>span{
+    color: #06b8ad;
+}
+.big{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100px;
+    padding-top: 40px;
+}
+.scroll{
+    clear: both;
+    height: 850px;
+    width: 100%;
+    background-image: url(walking.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px;
+    box-sizing: border-box;
+}
+.scroll h2{
+    font-size: 50px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+.mid{
+    font-size: 25px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.roll{
+    width: 40%;
+}
+.but{
+    border: 2px solid #06b8ad;
+    border-radius: 23px;
+    color: #06b8ad;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 30px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.but:hover{
+    background-color: #06b8ad;
+    color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.scroll hr{
+    border: 2px solid white;
+    border-radius: 2px;
+}
+section{
+    height: 1100px;
+    width: 100%;
+    padding-top: 60px;
+    background: rgb(238, 225, 225);
+}
+section h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(24, 35,78);
+}
+section hr{
+    width: 7%;
+    border: 2px solid rgb(24, 35,78) ;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+.logos{
+    margin-top: 100px;
+}
+.logos a:hover{
+    filter: grayscale(100%);
+    opacity: 0.7;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.first{
+    width: 77%;
+    margin: 0px auto;
+}
+.second{
+    width: 85%;
+    margin: 0px auto;
+}
+.third{
+    width: 73%;
+    margin: 0px auto;  
+}
+.fourth{
+    width: 20%;
+    margin: 0px auto;
+}
+section img{
+    margin: 0 40px 40px 40px;
+}
+.more{
+    border: 2px solid #06b8ad;
+    border-radius: 23px;
+    color: #06b8ad;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 30px;
+    width: 10%;
+    margin: 30px 600px 60px 550px;
+}
+.more:hover{
+    background: #bceeeb;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+article{
+    height: 800px;
+    width: 100%;
+    padding: 80px 140px 80px 140px;
+    box-sizing: border-box;
+}
+article h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgb(24, 35,78);
+}
+article hr{
+    width: 8%;
+    border: 2px solid rgb(24, 35,78) ;
+    margin: 10px auto;
+    border-radius: 2px;
+}
+article>p{
+    font-size: 23px;
+    font-weight: lighter;
+    margin-top: 40px;
+    color: rgb(45,54,61);
+    text-align: center;
+}
+.back{
+    width: 100%;
+    height: 350px;
+    margin-top: 50px;
+    background-image: url(woman.jpeg);
+    box-sizing: border-box;
+}
+.text{
+    width: 40%;
+    color: white;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.eye{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.spring{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+.now{
+    border: 2px solid white;
+    border-radius: 23px;
+    padding: 10px 30px;
+}
+.now:hover{
+    background-color: rgb(75, 71, 71);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.learn{
+    border: 2px solid #06b8ad;
+    border-radius: 23px;
+    color: #06b8ad;
+    font-size: 20px;
+    padding: 10px 30px;
+    width: 13%;
+    margin: 40px auto;
+}
+.learn:hover{
+    color: white;
+    background-color: #06b8ad;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.page-section{
+    width: 100%;
+    height: 700px;
+    background-image: url(children.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: space ;
+}
+.page-section>div{
+    width: 40%;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.one{
+    font-size: 80px;
+    color: rgb(24, 35,78);
+    font-weight: lighter;
+}
+.two{
+    font-size: 80px;
+    color: #06b8ad;
+    font-weight: lighter;
+}
+.page-section hr{
+    width: 20%;
+    border: 2px solid rgb(24, 35,78);
+    border-radius: 2px;
+    margin-top: 25px;
+}
+.page-section p{
+    color: rgb(66, 64, 64);
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.three{
+    color: rgb(49, 48, 48);
+    border: 2px solid rgb(66, 64, 64);
+    border-radius: 23px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 900px;
+}
+.three:hover{
+    background-color:rgb(148, 146, 146);
+    opacity: .8;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.foot{
+    padding: 30px;
+    height: 60px;
+    background-color: #18234e;
+}
+.icons{ 
+    text-align: center;
+}
+.iconic{
+    display: inline-block;
+    max-width: 25px;
+    width: 100%;
+    min-height: 25px;
+    margin: 0 5px 10px;
+    background: url(bg-icon.webp) no-repeat scroll 0 0;
+    vertical-align: middle;
+    transition: all .5s;
+}
+.facebook{
+    background-position: 0 0;
+}
+.facebook:hover{
+    background-position: 0 -25px;
+}
+.twitter{
+    background-position: -25px 0;
+}
+.twitter:hover{
+    background-position: -25px -25px;
+}
+.linkedin{
+    background-position: -50px 0;
+}
+.linkedin:hover{
+    background-position: -50px -25px;
+}
+.instagram{
+    background-position: -75px 0;
+}
+.instagram:hover{
+    background-position: -75px -25px;
+}
+.foot ul{
+    list-style-type: none;
+    margin: 0 45px;
+    padding: 0;
+}
+.foot li{
+    float: left;
+}
+.abeg a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+.abeg a:hover{
+    color: yellow;
+}
+.ter{
+    height: 55px;
+    background-color: #001029;
+}
+.ter ul{
+    list-style-type: none;
+    width: 43%;
+    margin: 0 auto;
+    padding: 0;
+}
+.ter li{
+    float: left;
+    display: block;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    color: white;
+}
